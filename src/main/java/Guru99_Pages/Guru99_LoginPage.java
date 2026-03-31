@@ -17,8 +17,6 @@ public class Guru99_LoginPage {
 	WebDriver driver;
 	ConfigReader config;
 
-	
-
 	@FindBy(name = "uid")
 	WebElement userId_WE;
 
@@ -41,12 +39,28 @@ public class Guru99_LoginPage {
 
 	
 
-	public Guru99_HomePage loginPage_Loginfunctionality() throws IOException {
+/*	public Guru99_HomePage loginPage_Loginfunctionality() throws IOException {
 		// Read credentials from Excel
 		String[] credentials = Utility_Guru99
 				.getLoginCredentials("C://Users//jyotsana.pandey//Documents//Test Data//TestDataWorkbook.xlsx", "TestData");
 		String userId = credentials[0];
 		String password = credentials[1];
+
+		userId_WE.sendKeys(userId);
+		password_WE.sendKeys(password);
+		loginButton_WE.click();
+		Guru99_HomePage obj_Guru99_HomePage = new Guru99_HomePage(driver);
+		// Guru99_HomePage obj_Guru99_HomePage = PageFactory.initElements(driver,
+		// Guru99_HomePage.class);
+		return obj_Guru99_HomePage;
+	} */
+	
+	public Guru99_HomePage loginPage_Loginfunctionality(String userId, String password) throws IOException {
+		// Read credentials from Excel
+//		String[] credentials = Utility_Guru99
+//				.getLoginCredentials("C://Users//jyotsana.pandey//Documents//Test Data//TestDataWorkbook.xlsx", "TestData");
+//		String userId = credentials[0];
+//		String password = credentials[1];
 
 		userId_WE.sendKeys(userId);
 		password_WE.sendKeys(password);

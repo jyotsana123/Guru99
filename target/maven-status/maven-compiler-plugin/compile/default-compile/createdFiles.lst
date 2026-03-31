@@ -1,4 +1,8 @@
 Guru99_Pages\Guru99_HomePage.class
+Guru99_Utility\RetryAnalyzer.class
 Guru99_Utility\ConfigReader.class
+Guru99_Utility\JsonDataProvider.class
+Guru99_Utility\RetryListener.class
+Guru99_Utility\ScreenshotUtils.class
 Guru99_Utility\Utility_Guru99.class
 Guru99_Pages\Guru99_LoginPage.class

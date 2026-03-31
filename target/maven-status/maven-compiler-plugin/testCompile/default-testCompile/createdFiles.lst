@@ -1,6 +1,7 @@
 Guru99_TestCases\TC_3_LoginPage_LoginFunctionalityTest.class
+Guru99_TestCases\TC_5_HomePage_UICheckTest.class
+Guru99_TestCases\TestListener.class
+Guru99_TestCases\TC_4_HomePage_TitleCheckTest.class
 Guru99_TestCases\TC_1_LoginPage_TitleCheckTest.class
 Guru99_TestCases\TC_2_LoginPage_UICheckTest.class
 Guru99_TestCases\Guru99_ParentTestCase.class
-Guru99_TestCases\TC_5_HomePage_UICheckTest.class
-Guru99_TestCases\TC_4_HomePage_TitleCheckTest.class

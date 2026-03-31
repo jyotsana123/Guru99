@@ -22,7 +22,7 @@ public class Guru99_ParentTestCase {
 	Guru99_LoginPage obj_Guru99_LoginPage;
 	ConfigReader config;
 
-	@BeforeMethod
+	@BeforeMethod(alwaysRun = true)
 	public void initTest() throws IOException {
 
 		config = new ConfigReader();
